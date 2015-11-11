@@ -1,0 +1,9 @@
+#
+# This is the local Apache HTTP server configuration file.  It contains the
+# configuration directives that give the server its instructions.
+# Introduced by PVC
+
+Define PVC_DOCUMENT_ROOT 	"C:/All/System/Hosts"
+Define PVC_SERVER_ROOT 		"C:/All/System/Install/Apache"
+Define PVC_LISTEN 			80
+Define PVC_SERVER_ADMIN 	admin@example.com
