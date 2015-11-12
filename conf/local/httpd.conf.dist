@@ -3,7 +3,11 @@
 # configuration directives that give the server its instructions.
 # Introduced by PVC
 
-Define PVC_DOCUMENT_ROOT 	"C:/All/System/Hosts"
-Define PVC_SERVER_ROOT 		"C:/All/System/Install/Apache"
+# Value of this would be replaces after pvc-init
+Define PVC_SERVER_ROOT 		"PVC_INIT_SERVER_ROOT"
+
+# Default value
+Define PVC_DOCUMENT_ROOT 	"${PVC_SERVER_ROOT}/htdocs"
+
 Define PVC_LISTEN 			80
 Define PVC_SERVER_ADMIN 	admin@example.com

@@ -1,1 +1,0 @@
-REM todo: this ne shuld rename copy all conf/local/*.dist files to same directory without "dist".!
