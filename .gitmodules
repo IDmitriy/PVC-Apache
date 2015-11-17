@@ -1,0 +1,3 @@
+[submodule "pvc/conf"]
+	path = pvc/conf
+	url = https://github.com/IDmitriy/PVC-Apache-Conf.git
